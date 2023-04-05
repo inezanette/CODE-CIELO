@@ -1379,6 +1379,7 @@ input, select, textarea {
 			display: flex;
 			margin-bottom: 0;
 			text-align: center;
+			position:relative;
 			z-index:10000;
 		    cursor: default;
 			list-style: none;
