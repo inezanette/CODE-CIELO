@@ -70,7 +70,7 @@ input, select, textarea {
 
 /* Testimonial */
 .testimonial-container{
-	background-color:dimgrey;
+	background-color:rgba(27, 31, 34, 0.85);
 	color: white;
 	border-radius: 15px;
 	margin: 20px auto;
@@ -1216,7 +1216,7 @@ input, select, textarea {
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url('https://i.imgur.com/BQVcVUq.jpg');
 			background-position: center;
-			background-size: cover;
+			background-size: auto;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
@@ -1370,6 +1370,8 @@ input, select, textarea {
 				letter-spacing: 0.2rem;
 				font-size: 22px;
 				line-height: 2;
+				font-weight: bold;
+				background-color: rgba(25, 31, 52, 0.3);
 			}
 
 		#header nav ul {
