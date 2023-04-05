@@ -1378,11 +1378,17 @@ input, select, textarea {
 			display: -ms-flex;
 			display: flex;
 			margin-bottom: 0;
+			text-align: center;
+		    left: 0;
+		    top: 0;
+			z-index:10000;
+		    cursor: default;
+		    height: 3.5em;
+		    line-height: 3.5em;
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
-			position: relative;;
 		}
 
 			#header nav ul li {
