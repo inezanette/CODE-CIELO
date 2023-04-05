@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -31,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
 }
 
 ol, ul {
@@ -70,6 +66,84 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+/* Testimonial */
+.testimonial-container{
+	background-color:dimgrey;
+	color: white;
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 50px 80px;
+	max-width: 768px;
+	position:relative;
+}
+
+.fa-quote {
+	color: rgba(255,255,255,0.3);
+	font-size: 28px;
+	position: absolute;
+	top: 70px;
+}
+.fa-quote-right{
+	left:40px;
+}
+.fa-quote-left{
+	right:40px;
+}
+
+.testimonial {
+	line-height: 28px;
+	text-align: justify;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user .user-details{
+	margin-left: 10px;
+}
+
+.user .username{
+	margin:0;
+}
+
+.user .role{
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+.user .user-image{
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	object-fit: cover;
+}
+
+.progress-bar {
+	background-color:#3ed5ed;
+	height: 4px;
+	width:100%;
+	animation: grow 10s linear infinite;
+	transform-origin: left;
+}
+
+@keyframes grow{
+	0%{
+		transform: scaleX(0);
+	}
+}
+
+@media(max-width: 768px){
+	.testimonial-container{
+		padding: 20px 30px;
+	}
+	.fa-quote{
+		display:none;
+	}
 }
 
 /* Basic */
@@ -141,7 +215,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family:'Open Sans', sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -158,8 +232,9 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			color: #2bbfeb
 		}
+	
 
 	strong, b {
 		color: #ffffff;
@@ -260,7 +335,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.075);
+		background:rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
@@ -581,7 +656,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 1px white;
 		margin-bottom: 2rem;
 		padding: 1.5em;
 	}
@@ -1015,7 +1090,7 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px #ffffff;
-		color: #ffffff !important;
+		color: #2bbfeb !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8rem;
@@ -1078,7 +1153,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: #2bbfeb;
 			color: #1b1f22 !important;
 			font-weight: 600;
 		}
@@ -1140,9 +1215,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1155,7 +1233,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url('/Users/inez/Documents/GitHub/HIVE/images/3D logo.jpg');
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1173,9 +1251,6 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
-		body.is-preload #bg:before {
-			background-color: #000000;
-		}
 
 /* Wrapper */
 
@@ -1251,10 +1326,6 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1287,18 +1358,6 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
-
-			#header .logo .icon:before {
-				font-size: 2rem;
-			}
-
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1328,7 +1387,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 22px;
 				line-height: 2;
 			}
 
