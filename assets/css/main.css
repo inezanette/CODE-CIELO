@@ -1382,6 +1382,7 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			position: relative;;
 		}
 
 			#header nav ul li {
@@ -1416,7 +1417,7 @@ input, select, textarea {
 		#header nav.use-middle:after {
 			content: '';
 			display: block;
-			position: relative;
+			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
 			width: 1px;
