@@ -184,6 +184,10 @@ input, select, textarea {
 	}
 }
 
+/* Calendar */
+.call .calendly-inline-widget {
+	background-color: #D4EDF4;
+}
 /* Basic */
 
 	@-ms-viewport {
@@ -270,7 +274,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #2bbfeb
+			color: #2bbfeb;
 		}
 	
 
