@@ -71,6 +71,39 @@ input, select, textarea {
 /* Services */
 .serve-container{
 	background-color: rgba(27, 31, 34, 0.85);
+	margin: 20px auto;
+	border-radius: 15px;
+	padding: 50px 80px;
+	max-width: 768px;
+	position:relative;
+}
+
+/* About */
+.me-container{
+	color: white;
+	background-color: rgba(255, 255, 255, 0.095);;
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 50px 80px;
+	max-width: 768px;
+	position:relative;
+}
+
+.bio {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.profile-image{
+	border-radius: 50%;
+	height: 170px;
+	width: 170px;
+	object-fit: cover;
+}
+.profile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* Testimonial */
@@ -1557,10 +1590,6 @@ input, select, textarea {
 				}
 
 		}
-
-/* Main */
-
-	
 
 /* Footer */
 
