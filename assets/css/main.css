@@ -79,6 +79,11 @@ input, select, textarea {
 	position:relative;
 }
 
+.setup {
+	color:#2bbfeb;
+	background-color: white;
+}
+
 .banner {
 	font-size: 20px !important;
 	font-weight: bold;
