@@ -61,8 +61,6 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
-
-
 input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -70,11 +68,28 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Banner */
+.banner-container {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.095);;
+	border-radius: 15px;
+	margin: 10px auto;
+	padding: 50px 80px;
+	max-width: 700px;
+	max-height: 575px;
+	position:relative;
+}
+
+.banner {
+	font-size: 20px !important;
+	text-transform: none !important;
+}
+
 /* Logo */
 .logo .logo{
 	border-radius: 5%;
 	height: 120px;
-	width: 185px;
+	width: 190px;
 	padding-bottom: 20px;
 }
 
@@ -100,7 +115,7 @@ input, select, textarea {
 }
 
 .bio {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -428,7 +443,11 @@ input, select, textarea {
 /* Form */
 
 	form {
-		margin: 0 0 2rem 0;
+		border-radius: 15px;
+	    margin: 20px auto;
+	    padding: 50px 100px;
+	    max-width: 4000px;
+	    position:relative;
 	}
 
 		form > :last-child {
@@ -462,7 +481,7 @@ input, select, textarea {
 			}
 
 				form > .fields > .field.half {
-					width: calc(50% - 0.75rem);
+					width: calc(30% - 0.75rem);
 				}
 
 				form > .fields > .field.third {
@@ -481,7 +500,7 @@ input, select, textarea {
 		font-size: 0.8rem;
 		font-weight: 300;
 		letter-spacing: 0.2rem;
-		line-height: 1.5;
+		line-height: 3;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 	}
@@ -509,6 +528,7 @@ input, select, textarea {
 		padding: 0 1rem;
 		text-decoration: none;
 		width: 100%;
+		margin-top: 20px;
 	}
 
 		input[type="text"]:invalid,
@@ -669,7 +689,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
 	}
@@ -761,23 +781,23 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 4px;
-		border: 0;
-		box-shadow: inset 0 0 0 1px #ffffff;
-		color: #2bbfeb !important;
-		cursor: pointer;
+		position: relative;
 		display: inline-block;
-		font-size: 0.8rem;
-		font-weight: 300;
-		height: 2.75rem;
-		letter-spacing: 0.2rem;
-		line-height: 2.75rem;
-		outline: 0;
-		padding: 0 1.25rem 0 1.35rem;
-		text-align: center;
+		color: #fff;
 		text-decoration: none;
-		text-transform: uppercase;
-		white-space: nowrap;
+		font-weight: 600;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		border-radius: 8px;
+		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
+		overflow: hidden;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+		background-color:crimson;
+		padding: 1em 2.35em 1em 2.35em;
+		font-size: 1.1em;
+		max-width: 24em;
+		margin-top: 20px;
 	}
 
 		input[type="submit"]:hover,
@@ -785,7 +805,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: whitesmoke;
+			color: crimson;
 		}
 
 		input[type="submit"]:active,
@@ -794,6 +815,7 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(255, 255, 255, 0.175);
+			top: 1px;
 		}
 
 		input[type="submit"].icon:before,
@@ -815,11 +837,10 @@ input, select, textarea {
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
-		button.small,
-		.button.small {
-			font-size: 0.6rem;
-			height: 2.0625rem;
-			line-height: 2.0625rem;
+		button.medium,
+		.button.medium {
+			font-size: 1.5em;
+			letter-spacing: -0.025em;
 		}
 
 		input[type="submit"].primary,
@@ -957,9 +978,6 @@ input, select, textarea {
 				background-color: rgba(25, 31, 52, 0.3);
 			}
 
-			
-
-			
 
 		@media screen and (max-width: 980px) {
 
