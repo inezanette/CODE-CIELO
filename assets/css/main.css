@@ -71,12 +71,11 @@ input, select, textarea {
 /* Banner */
 .banner-container {
 	color: white;
-	background-color: rgba(255, 255, 255, 0.095);;
+	background-color: rgba(255, 255, 255, 0.2);;
 	border-radius: 15px;
 	margin: 10px auto;
 	padding: 50px 80px;
 	max-width: 700px;
-	max-height: 575px;
 	position:relative;
 }
 
