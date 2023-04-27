@@ -80,7 +80,8 @@ input, select, textarea {
 }
 
 .banner {
-	font-size: 18px !important;
+	font-size: 20px !important;
+	font-weight: bold;
 	text-transform: none !important;
 }
 
@@ -780,7 +781,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		position: relative;
+		position:relative;
 		display: inline-block;
 		color: #fff;
 		text-decoration: none;
@@ -797,6 +798,7 @@ input, select, textarea {
 		font-size: 1.1em;
 		max-width: 24em;
 		margin-top: 20px;
+		margin-left: 30px;
 	}
 
 		input[type="submit"]:hover,
