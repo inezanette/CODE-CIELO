@@ -92,6 +92,7 @@ input, select, textarea {
 		}
 		form {
 		background: rgba(27, 31, 34, 0.85);
+		max-width: 550px;
 		}
 		.title {
 		display: flex;
@@ -479,13 +480,12 @@ input, select, textarea {
 
 /* Form */
 
-	form {
-		border-radius: 15px;
-	    margin: 20px auto;
-	    padding: 50px 100px;
-	    max-width: 4000px;
-	    position:relative;
-	}
+form {
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 50px 100px;
+	position:relative;
+}
 
 		form > :last-child {
 			margin-bottom: 0;
