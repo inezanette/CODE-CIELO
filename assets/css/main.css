@@ -1262,8 +1262,8 @@ table {
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
-		button.medium,
-		.button.medium {
+		button.small,
+		.button.small {
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
