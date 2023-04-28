@@ -1256,7 +1256,7 @@ table {
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
-			width: 100%;
+			width: 80%;
 		}
 
 		input[type="submit"].small,
