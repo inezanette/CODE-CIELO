@@ -194,10 +194,12 @@ input, select, textarea {
 	position:relative;
 }
 
+.about {
+	color: black;
+}
+
 .bio {
 	font-weight: bold;
-
-	
 }
 
 .profile-image{
