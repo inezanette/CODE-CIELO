@@ -25,8 +25,14 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+	display: flex;
+	flex-direction: column;
 	line-height: 1;
 	font-family: 'Open Sans', sans-serif;
+	height: 100vh;
+	flex: 1;
+	overflow: scroll;
+	-webkit-text-size-adjust: none;
 }
 
 ol, ul {
@@ -47,9 +53,7 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	-webkit-text-size-adjust: none;
-}
+
 
 mark {
 	background-color: transparent;
@@ -327,7 +331,7 @@ input, select, textarea {
 @media screen and (max-width: 480px) {
 
 	html, body {
-		min-width: 320px;
+		height: webkit-fill-available;
 	}
 
 }
