@@ -185,7 +185,6 @@ input, select, textarea {
 	max-width: 700px;
     justify-content: center;
     align-items: center;
-
 }
 
 .services{
@@ -199,7 +198,9 @@ input, select, textarea {
 	border-radius: 15px;
 	padding: 50px 80px;
 	max-width: 700px;
-	position:relative;
+	justify-content: center;
+    align-items: center;
+}
 }
 
 .about {
