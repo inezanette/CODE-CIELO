@@ -162,6 +162,7 @@ input, select, textarea {
     }
 
 	.free {
+		font-size:18px;
 		-webkit-text-stroke: 1px #F8F8F8;
 	text-shadow: 0px 2px 5px #23430C;
 	}
