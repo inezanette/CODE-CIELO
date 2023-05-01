@@ -164,6 +164,7 @@ input, select, textarea {
 	.free {
 		font-size:18px;
 		font-weight: bold;
+		color: black;
 	}
 
     /* Logo */
