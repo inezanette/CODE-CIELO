@@ -25,14 +25,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	display: flex;
-	flex-direction: column;
 	line-height: 1;
 	font-family: 'Open Sans', sans-serif;
 	height: 100vh;
-	flex: 1;
-	overflow: scroll;
-	-webkit-text-size-adjust: none;
 }
 
 ol, ul {
@@ -331,7 +326,7 @@ input, select, textarea {
 @media screen and (max-width: 480px) {
 
 	html, body {
-		height: webkit-fill-available;
+		min-width: 320px;
 	}
 
 }
