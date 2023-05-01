@@ -450,8 +450,8 @@ html {
 		letter-spacing: 0.5rem;
 		color: white;
 	font-size: 27px;
-	-webkit-text-stroke: 1px #white;
-	text-shadow: 0px 1px 4px #black;
+	-webkit-text-stroke: 1px white;
+	text-shadow: 0px 1px 4px black;
 }
 
 
