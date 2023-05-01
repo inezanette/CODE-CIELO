@@ -182,9 +182,7 @@ input, select, textarea {
 	padding: 50px 80px;
 	max-width: 700px;
 	position:relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
 }
 
 .services{
@@ -199,9 +197,6 @@ input, select, textarea {
 	padding: 50px 80px;
 	max-width: 700px;
 	position:relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .about {
@@ -316,7 +311,7 @@ input, select, textarea {
 	font-size: 18px;
 }
 .call{
-	color: black;
+	color: white;
 }
 
 /* Basic */
