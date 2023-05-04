@@ -189,6 +189,18 @@ input, select, textarea {
 	background-color:#2bbfeb;
 }
 
+@media(max-width: 768px){
+	.serve-container{
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 20px 30px;
+	}
+	.services{
+		display: block;
+	}
+}
+
 /* About */
 .me-container{
 	background-color: rgba(27, 31, 34, 0.85);
@@ -221,6 +233,12 @@ input, select, textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media(max-width: 768px){
+	.about{
+		padding: 20px 30px;
+	}
 }
 
 /* Testimonial */
@@ -317,12 +335,23 @@ input, select, textarea {
 	color: white;
 }
 
+@media(max-width: 400px){
+	.call-container{
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 20px 20px;
+	}
+	.call{
+		display: block;
+	}
+}
 /* Basic */
 @-ms-viewport {
 	width: device-width;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
 	html, body {
 		min-width: 320px;
@@ -334,22 +363,13 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		box-sizing: inherit;
+		
 	}
 
 	body {
 		background: #1b1f22;
 	}
-	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-		-moz-animation: none !important;
-		-webkit-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-		-moz-transition: none !important;
-		-webkit-transition: none !important;
-		-ms-transition: none !important;
-		transition: none !important;
-	}
+	
 
 
     /* Type */
@@ -813,56 +833,56 @@ ul.actions {
 			width: 100%;
 		}
 
-	@media screen and (max-width: 480px) {
+		@media screen and (max-width: 480px) {
 
-		ul.actions:not(.fixed) {
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-			flex-direction: column;
-			margin-left: 0;
-			width: 100% !important;
-		}
-
-			ul.actions:not(.fixed) li {
-				-moz-flex-grow: 1;
-				-webkit-flex-grow: 1;
-				-ms-flex-grow: 1;
-				flex-grow: 1;
-				-moz-flex-shrink: 1;
-				-webkit-flex-shrink: 1;
-				-ms-flex-shrink: 1;
-				flex-shrink: 1;
-				padding: 1rem 0 0 0;
-				text-align: center;
-				width: 100%;
+			ul.actions:not(.fixed) {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-left: 0;
+				width: 100% !important;
 			}
-
-				ul.actions:not(.fixed) li > * {
+	
+				ul.actions:not(.fixed) li {
+					-moz-flex-grow: 1;
+					-webkit-flex-grow: 1;
+					-ms-flex-grow: 1;
+					flex-grow: 1;
+					-moz-flex-shrink: 1;
+					-webkit-flex-shrink: 1;
+					-ms-flex-shrink: 1;
+					flex-shrink: 1;
+					padding: 1rem 0 0 0;
+					text-align: center;
 					width: 100%;
 				}
-
-				ul.actions:not(.fixed) li:first-child {
-					padding-top: 0;
-				}
-
-				ul.actions:not(.fixed) li input[type="submit"],
-				ul.actions:not(.fixed) li input[type="reset"],
-				ul.actions:not(.fixed) li input[type="button"],
-				ul.actions:not(.fixed) li button,
-				ul.actions:not(.fixed) li .button {
-					width: 100%;
-				}
-
-					ul.actions:not(.fixed) li input[type="submit"].icon:before,
-					ul.actions:not(.fixed) li input[type="reset"].icon:before,
-					ul.actions:not(.fixed) li input[type="button"].icon:before,
-					ul.actions:not(.fixed) li button.icon:before,
-					ul.actions:not(.fixed) li .button.icon:before {
-						margin-left: -0.5em;
+	
+					ul.actions:not(.fixed) li > * {
+						width: 100%;
 					}
-
-	}
+	
+					ul.actions:not(.fixed) li:first-child {
+						padding-top: 0;
+					}
+	
+					ul.actions:not(.fixed) li input[type="submit"],
+					ul.actions:not(.fixed) li input[type="reset"],
+					ul.actions:not(.fixed) li input[type="button"],
+					ul.actions:not(.fixed) li button,
+					ul.actions:not(.fixed) li .button {
+						width: 100%;
+					}
+	
+						ul.actions:not(.fixed) li input[type="submit"].icon:before,
+						ul.actions:not(.fixed) li input[type="reset"].icon:before,
+						ul.actions:not(.fixed) li input[type="button"].icon:before,
+						ul.actions:not(.fixed) li button.icon:before,
+						ul.actions:not(.fixed) li .button.icon:before {
+							margin-left: -0.5em;
+						}
+	
+		}
 
 /* Icons */
 
