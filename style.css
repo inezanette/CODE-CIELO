@@ -189,18 +189,6 @@ input, select, textarea {
 	background-color:#2bbfeb;
 }
 
-@media(max-width: 768px){
-	.serve-container{
-		justify-content: center;
-		align-items: center;
-		margin: 0;
-		padding: 20px 30px;
-	}
-	.services{
-		display: block;
-	}
-}
-
 /* About */
 .me-container{
 	background-color: rgba(27, 31, 34, 0.85);
@@ -233,12 +221,6 @@ input, select, textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-@media(max-width: 768px){
-	.about{
-		padding: 20px 30px;
-	}
 }
 
 /* Testimonial */
@@ -335,17 +317,6 @@ input, select, textarea {
 	color: white;
 }
 
-@media(max-width: 400px){
-	.call-container{
-		justify-content: center;
-		align-items: center;
-		margin: 0;
-		padding: 20px 20px;
-	}
-	.call{
-		display: block;
-	}
-}
 /* Basic */
 @-ms-viewport {
 	width: device-width;
@@ -363,7 +334,7 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		
+		box-sizing: inherit;
 	}
 
 	body {
